@@ -93,10 +93,10 @@ print()
 
 ttest_power = TTestIndPower()
 
-target_d = 0.47
-
-required_per_group_d47 = ttest_power.solve_power(
-    effect_size=target_d,
+# Minimum detectable effect for a two-condition planned contrast,
+# given the planned recruitment of ~72 participants per condition
+detectable_d = ttest_power.solve_power(
+    nobs1=recruitment_per_condition,
     alpha=ALPHA,
     power=POWER,
     ratio=1.0,
@@ -114,8 +114,8 @@ required_per_group_d40 = ttest_power.solve_power(
 print("PAIRWISE COMPARISON SENSITIVITY")
 print("-------------------------------")
 print(
-    f"For Cohen's d = 0.47, approximately "
-    f"{ceil(required_per_group_d47)} participants per group are required."
+    f"With {recruitment_per_condition} participants per condition, a two-condition "
+    f"contrast has {POWER:.0%} power to detect Cohen's d = {detectable_d:.2f}."
 )
 print(
     f"For Cohen's d = 0.40, approximately "
