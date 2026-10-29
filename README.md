@@ -128,7 +128,7 @@ The current recruitment target for a future main study is:
 
 This effect-size assumption is used for study planning and is not an empirical estimate from the present project.
 
-*To reproduce: pip install -r requirements.txt && python analysis/power_analysis.py*
+*To reproduce: pip install -r pip install -r analysis/requirements.txt && python analysis/power_analysis.py*
 
 ---
 
