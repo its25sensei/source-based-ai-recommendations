@@ -180,7 +180,7 @@ Detailed project materials are available in [`docs/`](docs/).
 
 | File | Description |
 | --- | --- |
-| [`01_Stimuli_v2.pdf`](docs/01_Stimuli_v2.pdf) | Matched experimental stimuli for the five conditions |
+| [`01_Stimuli_v3.pdf`](docs/01_Stimuli_v3.pdf) | Matched experimental stimuli for the five conditions |
 | [`02_Manipulation_Checks_v1.pdf`](docs/02_Manipulation_Checks_v1.pdf) | Manipulation-check design |
 | [`03_Hypotheses_v1.pdf`](docs/03_Hypotheses_v1.pdf) | Hypotheses and exploratory research question |
 | [`04_Measurement_v1.pdf`](docs/04_Measurement_v1.pdf) | Measurement framework |
